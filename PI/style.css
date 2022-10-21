@@ -31,7 +31,7 @@ body
     position: relative;
     width: 1200px;
     height: 1000px;
-    top: 455px;
+    top: 397px;
     left: 500px;
     background-image: url(img.png);
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ border-radius: 45px;
     background-color: #7C7A7A;
     display: block;
     position: relative;
-    top: -1px;
+    top: 5px;
     left: -8px;
   }
 
@@ -185,7 +185,7 @@ border-radius: 45px;
     background-color: #7C7A7A;
     display: block;
     position: relative;
-    top: -1px;
+    top: 5px;
     left: -8px;
   }
 
@@ -201,3 +201,4 @@ border-radius: 45px;
     background-position: center;
     
 }
+  
