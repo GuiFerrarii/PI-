@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body
+{
+    background: linear-gradient(#F5E9DD,#F5E9DD);
+    overflow: hidden;
+
+}
+
+.senac{
+    width: 185px;
+    height: 111px;
+    position: fixed;
+    bottom: 800px;
+    left: 125px;
+    background-image: url(senac-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.imagem{
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    left: 250px;
+    top: 266px;
+    background-image: url(imagem.png);
+    background-repeat: no-repeat;
+    
+}
+
+.ret{
+  
+    position: absolute;
+    width: 820px;
+    height: 1024px;
+    left: 1150px;
+    top: 0px;
+    
+    background: #F9FAFD;
+  
+  }
+
+  .ret p{
+    position: relative;
+    width: 185px;
+    height: 95px;
+    left: 309px;
+    top: 228px;
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 71px;
+    
+    color: #595858;
+    
+
+  }
+
+  .input-box{
+    display: block;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    position: relative;
+    top: 311px;
+    left: 200px;
+    height: 600px;
+    width: 600px;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 1.5rem 1.2rem;
+    width: 68%;
+    border: none;
+    box-shadow: 1px 1px 6px #0000001c;
+    background-color: #4141411c;
+}
+
+.input-box input:hover {
+    background-color: #4141411c;
+}
+
+.input-box input:focus-visible {
+    outline: 0.5px solid #19ecc9;
+
+}
+
+.input-box input::placeholder{
+    color: #695e6d;
+    font-size: 20px;
+}
