@@ -87,6 +87,7 @@ body
     box-shadow: 1px 1px 6px #0000001c;
     background: #D9D9D9;
     border-radius: 7px;
+    
    
 
 }
@@ -114,6 +115,7 @@ body
     left: 1346px;
     height: 600px;
     width: 600px;
+    
 }
 
 .input-b input {
@@ -143,6 +145,7 @@ body
     left: 43px;
     position: relative;
     top: 4px;
+    
 }
 
 .user{
@@ -184,7 +187,7 @@ body
   
   #tt{
     position: relative;
-    left: 61px;
+    left: 137px;
     text-decoration: none;
     text-align: center;
     font-weight: 400;
@@ -195,6 +198,57 @@ body
   color: #FFFEFE;
   
   }
+
+  .r{
+    position: fixed;
+    width: 4px;
+    height: 36px;
+    left: 1543px;
+    top: 756px;
+    
+    background: rgba(0, 115, 223, 1);
+    border-radius: 4px;
+
+  }
+
+  .esq a{
+    text-decoration: none;
+    position: fixed;
+    width: 180px;
+    height: 28px;
+    left: 1388px;
+    top: 765px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+
+   color: #0073DF;
+
+  }
+
+  .esq #fg{
+    text-decoration: none;
+    position: fixed;
+    width: 180px;
+    height: 28px;
+    left: 1576px;
+    top: 765px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+
+   color: #0073DF;
+
+  }
+
+
+
+
+
 
 
 
